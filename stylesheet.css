@@ -1,15 +1,29 @@
-.title-words {
-    border: clear 2px black;
-    border-radius: 2px;
-    max-width: 300px;
+body {
+    background-color: burlywood;
+}
+
+.nav-bar {
+    padding: 2em;
+}
+
+.container {
+    position: absolute;
     text-align: center;
-    opacity: 0.6;
+    color: black;
+    padding-left: 2em;
 }
 
-.title-words:after {
-    margin-top: 10%;
-}
+.title{
+    position: absolute; 
+    bottom: 8px;
+    top: 8px;
+    opacity: 0.75;
+    max-width: 400px;
+    max-height: 150px;
+    background-color: #ffffff;
+    padding: 0.5em;
+    margin-left: 3em;
+    margin-top: 3em;
+    border-radius: 40px;
+} 
 
-.title title-image {
-    position: fixed;
-}
