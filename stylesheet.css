@@ -1,9 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 body {
     background-color: burlywood;
 }
 
 .nav-bar {
-    padding: 2em;
+    margin-left: 2rem;
+    max-width: 1000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed; 
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.nav-link {
+    /* display: flex; */
+    justify-content: space-between;
+    gap: 2rem;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    gap: 2rem;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: black;
 }
 
 .container {
@@ -11,6 +38,7 @@ body {
     text-align: center;
     color: black;
     padding-left: 2em;
+    margin-top: 100px;
 }
 
 .title{
@@ -18,7 +46,6 @@ body {
     bottom: 8px;
     top: 8px;
     opacity: 0.75;
-    max-width: 400px;
     max-height: 150px;
     background-color: #ffffff;
     padding: 0.5em;
