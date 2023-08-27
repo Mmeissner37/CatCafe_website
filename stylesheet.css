@@ -6,46 +6,49 @@
 
 body {
     background-color: burlywood;
+    max-width: 1000px;
+    margin-left: 2rem;
 }
 
 .nav-bar {
-    margin-left: 2rem;
     max-width: 1000px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     position: fixed; 
     width: 100%;
     background-color: #ffffff;
     margin-bottom: 0.5rem;
+    opacity: 0.7;
 }
 
 .nav-link {
-    /* display: flex; */
-    justify-content: space-between;
-    gap: 2rem;
-    list-style-type: none;
     text-decoration: none;
     color: black;
-    gap: 2rem;
+    border: solid 1px grey;
+    padding: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 8px;
 }
 
 .nav-link:hover {
-    color: white;
+    color: burlywood;
     background-color: black;
 }
 
 .container {
     position: absolute;
-    text-align: center;
+    /* text-align: center; */
     color: black;
-    padding-left: 2em;
     margin-top: 100px;
+    max-width: 1000px;
+    overflow: hidden;
 }
 
 .title{
     position: absolute; 
     bottom: 8px;
     top: 8px;
-    opacity: 0.75;
+    opacity: 0.7;
     max-height: 150px;
     background-color: #ffffff;
     padding: 0.5em;
@@ -53,4 +56,8 @@ body {
     margin-top: 3em;
     border-radius: 40px;
 } 
+
+.about p {
+    font-family: sans-serif;
+}
 
