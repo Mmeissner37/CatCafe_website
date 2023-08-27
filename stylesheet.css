@@ -2,7 +2,10 @@
 body {
     background-color: burlywood;
     max-width: 1000px;
-    margin-left: 2rem;
+    margin-left: 400px;
+    justify-content: center;
+    overflow: auto;
+    margin: auto;
 }
 
 #cafe-name {
@@ -20,6 +23,7 @@ h2 {
     position: fixed; 
     background-color: #ffffff;
     opacity: 0.7;
+    text-align: right;
 }
 
 .nav-link {
@@ -27,9 +31,10 @@ h2 {
     color: black;
     border: solid 1px grey;
     padding: 5px;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     border-radius: 8px;
+    overflow: auto;
 }
 
 .nav-link:hover {
@@ -60,6 +65,7 @@ h2 {
 
 .about p {
     font-family: Luminari;
+    overflow: auto;
 }
 
 .about {
@@ -68,4 +74,19 @@ h2 {
     padding: 5px;
     padding-left: 17px;
     margin-top: 10px;
+    overflow: auto;
 }
+
+footer {
+    position: bottom;
+    bottom: 0.5rem;
+    font-size: 1.2rem;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 150px;
+    color: #ffffff;
+    background-color: black;
+    font-family: inherit;
+  }
