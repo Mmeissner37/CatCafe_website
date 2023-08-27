@@ -5,10 +5,18 @@ body {
     margin-left: 2rem;
 }
 
+#cafe-name {
+    font-family: Luminari;
+}
+
+h2 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
 .nav-bar {
     width: 100%;
     max-width: 1000px;
-    font-family: sans-serif;
+    font-family: Luminari;
     position: fixed; 
     background-color: #ffffff;
     opacity: 0.7;
@@ -29,10 +37,6 @@ body {
     background-color: black;
 }
 
-main {
-    position: absolute;
-}
-
 .container {
     position: absolute;
     color: black;
@@ -45,16 +49,17 @@ main {
     bottom: 8px;
     top: 8px;
     opacity: 0.7;
-    max-height: 150px;
+    max-height: 135px;
     background-color: #ffffff;
     padding: 0.5em;
     margin-left: 3em;
     margin-top: 3em;
     border-radius: 40px;
+    text-align: center;
 } 
 
 .about p {
-    font-family: sans-serif;
+    font-family: Luminari;
 }
 
 .about {
@@ -62,4 +67,5 @@ main {
     opacity: 0.7;
     padding: 5px;
     padding-left: 17px;
+    margin-top: 10px;
 }
