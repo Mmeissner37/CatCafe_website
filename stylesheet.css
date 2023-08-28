@@ -113,3 +113,27 @@ footer {
     align-items: center;
     text-align: center;
 }
+
+.coffee {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.items {
+    position: absolute;
+    background: #ffffff;
+    opacity: 0.9;
+    color: black;
+    height: 500px;
+    width: 450px;
+    padding: 0.5em;
+    border-radius: 25px;
+    top: 40px;
+    bottom: 20px;
+    left: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
