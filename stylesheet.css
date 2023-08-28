@@ -113,6 +113,8 @@ footer {
 .grid-item {
     align-items: center;
     text-align: center;
+    padding: 2em;
+    background-color: bisque;
 }
 
 .coffee {
