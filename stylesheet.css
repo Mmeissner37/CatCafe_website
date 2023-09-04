@@ -20,11 +20,12 @@ h2 {
     width: 100%;
     max-width: 1000px;
     font-family: Luminari;
-    position: absolute; 
-    top: 0;
+    position: fixed; 
+    top: 5px;
     background-color: #ffffff;
     opacity: 0.8;
     text-align: right;
+    z-index: 1;
 }
 
 .nav-link {
@@ -42,13 +43,12 @@ h2 {
     color: burlywood;
     background-color: black;
     transition: color 1.0s;
-    /* transform: ease-in-out; */
 }
 
 .container {
     position: absolute;
     color: black;
-    margin-top: 75px;
+    margin-top: 65px;
     max-width: 1000px;
 }
 
@@ -74,6 +74,8 @@ h2 {
 
 #about-welcome {
     text-align: center;
+    font-family: Luminari;
+    font-size: 35px;
 }
 
 .about {
@@ -85,6 +87,20 @@ h2 {
     overflow: auto;
 }
 
+#menu, #products, #meet_our_adoptable_cats, #local_rescues {
+    text-align: center;
+    font-family: inherit;
+    font-size: 30px;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    border: black;
+    max-width: 50%;
+    margin-bottom: 2rem;
+}
+
 .about p {
     margin-left: 30px;
     margin-right: 30px;
@@ -93,7 +109,6 @@ h2 {
 footer {
     position: bottom;
     bottom: 0.5rem;
-    font-size: 1.2rem;
     left: 0;
     text-align: center;
     width: 100%;
@@ -102,6 +117,7 @@ footer {
     color: #ffffff;
     background-color: black;
     font-family: inherit;
+    padding: 0.5px;
   }
 
 .grid-container {
@@ -117,6 +133,7 @@ footer {
     text-align: center;
     padding: 2em;
     background-color: bisque;
+    border: solid 1px rgb(72, 35, 35);
 }
 
 .coffee {
