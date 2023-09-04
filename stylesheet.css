@@ -41,6 +41,8 @@ h2 {
 .nav-link:hover {
     color: burlywood;
     background-color: black;
+    transition: color 1.0s;
+    /* transform: ease-in-out; */
 }
 
 .container {
