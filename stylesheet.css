@@ -94,7 +94,7 @@ h2 {
 }
 
 hr {
-    height: 2px;
+    height: 3px;
     background-color: black;
     border: black;
     max-width: 50%;
@@ -117,7 +117,8 @@ footer {
     color: #ffffff;
     background-color: black;
     font-family: inherit;
-    padding: 0.5px;
+    margin-top: 1em;
+    padding: 0.25em;
   }
 
 .grid-container {
@@ -159,3 +160,16 @@ footer {
 
 
 
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    overflow: auto;
+    gap: 1em;
+    padding-top: 1em;
+}
+
+.grid-item2 {
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
