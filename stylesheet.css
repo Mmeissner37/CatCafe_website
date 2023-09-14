@@ -28,10 +28,15 @@ h2 {
     z-index: 1;
 }
 
+.nav-bar:hover {
+    opacity: 1;
+    transition: 0.75s;
+}
+
 .nav-link {
     text-decoration: none;
     color: black;
-    border: solid 1px grey;
+    border: solid 2px grey;
     padding: 5px;
     margin-left: 0.5em;
     margin-right: 0.5em;
@@ -42,7 +47,8 @@ h2 {
 .nav-link:hover {
     color: burlywood;
     background-color: black;
-    transition: color 1.0s;
+    transition: 0.75s;
+    border: solid 2px burlywood;
 }
 
 .container {
@@ -70,6 +76,7 @@ h2 {
 .about p {
     font-family: Luminari;
     overflow: auto;
+    font-size: 18px;
 }
 
 #about-welcome {
@@ -137,10 +144,15 @@ footer {
     border: solid 1px rgb(72, 35, 35);
 }
 
+.menu p {
+    font-size: 18px;
+    text-align: center;
+}
+
 .coffee {
     position: relative;
     max-width: 1000px;
-    margin: 0 auto;
+    align-items: center;
 }
 
 .items {
@@ -156,20 +168,38 @@ footer {
     bottom: 20px;
     left: 2.5em;
     font-family: 'Courier New', Courier, monospace;
+    align-items: center;
 }
 
+.items ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+#coffee-maker {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+h4 {
+    font-size: 20px;
+}
 
 .grid-container2 {
     display: grid;
     grid-template-columns: auto auto auto;
-    overflow: auto;
-    gap: 1em;
+    overflow: hidden;
+    gap: 3em;
     padding-top: 1em;
+    padding-left: 1em;
 }
 
 .grid-item2 {
     align-items: center;
     text-align: center;
     padding: 2em;
+}
+
+.grid-item:hover {
+    box-shadow: 5px 5px black;
 }
