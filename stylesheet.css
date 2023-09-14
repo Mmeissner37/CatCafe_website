@@ -1,3 +1,8 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
 
 body {
     background-color: burlywood;
@@ -144,7 +149,7 @@ footer {
     border: solid 1px rgb(72, 35, 35);
 }
 
-.menu p {
+.menu p, .products p {
     font-size: 18px;
     text-align: center;
 }
@@ -169,7 +174,6 @@ footer {
     left: 2.5em;
     font-family: Luminari;
     align-items: center;
-    font-size: 17px;
 }
 
 #menu-whole {
@@ -180,7 +184,6 @@ footer {
 #coffee-maker {
     text-align: center;
     font-size: 12px;
-    padding-top: 5px;
 }
 
 h4 {
