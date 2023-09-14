@@ -136,9 +136,10 @@ footer {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    overflow: auto;
+    /* overflow: auto; */
     gap: 1em;
     padding-top: 1em;
+    margin: 1em;
 }
 
 .grid-item {
