@@ -167,12 +167,9 @@ footer {
     top: 40px;
     bottom: 20px;
     left: 2.5em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Luminari;
     align-items: center;
-}
-
-.items ul {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
 }
 
 #coffee-maker {
