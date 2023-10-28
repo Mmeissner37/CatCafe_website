@@ -207,5 +207,5 @@ h4 {
 }
 
 .grid-item:hover {
-    box-shadow: 5px 5px black;
+    box-shadow: 10px 10px 40px rgb(255, 235, 211);
 }
